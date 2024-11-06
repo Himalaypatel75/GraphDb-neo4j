@@ -10,7 +10,7 @@ os.environ['LANGCHAIN_API_KEY']=os.getenv('LANGCHAIN_API_KEY')
 
 
 from langchain_groq import ChatGroq
-from langsmith import traceable
+from langsmith01 import traceable
 
 # Initialize Groq client (direct initialization)
 client = ChatGroq(model="llama3-70b-8192")
